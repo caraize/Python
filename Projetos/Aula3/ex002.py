@@ -1,0 +1,10 @@
+a=input('Digite algo: ')
+
+print(f'O tipo do que voce digitou é: {type(a)}')
+print(f'O que voce digitou é numerico? {a.isnumeric()}')
+print(f'Voce só apertou o espaço? {a.isspace()}')
+print(f'O que você digitou é alfabetico? {a.isalpha()}')
+print(f'O que você digitou e alfanumerico? {a.isalnum()}')
+print(f'O que voce digitou esta tudo em maiusculo? {a.isupper()}')
+print(f'O que voce digitou esta tudo em maiusculo? {a.islower()}')
+print(f'O que voce digitou esta tudo em maiusculo e minusculo (capitalizada)? {a.istitle()}')
