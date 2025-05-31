@@ -1,4 +1,4 @@
-#usuario vai digitar um nuemro, temos que verificar se ele é ou nao primo
+#usuario vai digitar um numero, temos que verificar se ele é ou nao primo
 
 num= int(input('Digite um numero: '))
 total_divisoes=0
